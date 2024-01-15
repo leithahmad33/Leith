@@ -337,7 +337,7 @@ header .mega-menu .links li i {
     transform: translateX(-50%);
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 83%;
     font-size: 30px;
     color: var(--main-color);
     animation-name: arrow;
