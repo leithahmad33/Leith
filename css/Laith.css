@@ -337,7 +337,7 @@ header .mega-menu .links li i {
     transform: translateX(-50%);
     position: absolute;
     left: 50%;
-    top: 83%;
+    top: 90%;
     font-size: 30px;
     color: var(--main-color);
     animation-name: arrow;
@@ -347,7 +347,11 @@ header .mega-menu .links li i {
 
 
 }
-
+@media (max-width: 767px) {
+    .landing .go-down {
+        top: 83%;
+    }
+}
 
 
 /* end landing */
